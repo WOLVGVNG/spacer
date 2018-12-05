@@ -9,7 +9,7 @@
         @input="handleInput"
       />
       <ul>
-        <li v-for="item in results" :key="item.data[0].nasa_id">
+        <li v-for="item in results" :key="item.data[0].nasa_id">:key="item.data[0].nasa.id"
           <p>{{ item.data[0].description }}</p>
 
         </li>
