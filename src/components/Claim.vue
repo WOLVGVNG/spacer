@@ -1,7 +1,8 @@
 <template>
   <div class="claimWrapper">
     <h1 class="claim">SPACER</h1>
-      <p class="subClaim">Begin your journey through our amazing galaxy, and discover places you never even heard of.</p>
+      <p class="subClaim">Begin your journey through our amazing galaxy,
+        and discover places you never even heard of.</p>
       <p class="subClaim">Type anything space-related to start.</p>
   </div>
 </template>
@@ -25,6 +26,7 @@ export default {
 
   .claim{
     font-size: 50px;
+    font-weight: 800;
     margin: 0;
 
     @media (min-width: 768px){

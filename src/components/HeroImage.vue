@@ -1,6 +1,6 @@
 <template>
   <div class="heroWrapper">
-    <img class="heroImage" />
+    <img class="heroImage"/>
     <div class="heroAfter"></div>
   </div>
 </template>
